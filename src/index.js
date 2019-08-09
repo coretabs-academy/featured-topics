@@ -76,7 +76,7 @@ for (let article of articles) {
     let articleItemElement = document.createElement('article');
     articleItemElement.className = 'article';
 
-    let articleTitle = truncateString(article.title, 25);
+    let articleTitle = truncateString(article.title, 60);
 
     articleItemElement.innerHTML = `
         <div class="article__meta">

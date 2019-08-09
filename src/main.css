@@ -28,7 +28,7 @@ body {
 
 .article {
     overflow: hidden;
-    height: 180px;
+    height: 250px;
     width: 180px;
     border-radius: 12px;
     position: relative;
@@ -145,6 +145,6 @@ body {
 
     .article {
         width: 128px;
-        height: 128px;
+        height: 200px;
     }
 }

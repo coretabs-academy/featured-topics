@@ -1,55 +1,66 @@
 let articles = [
     {
         id: 1,
-        title: 'عنوان المقال',
+        title: 'زيادة فرصك كمطور: مشاريعك في البروفايل',
         pic: 'http://source.unsplash.com/random/300x300',
         link: 'http://google.com',
         author: {
-            name: 'Ayman Alrifai',
+            name: 'Yaser AlNajjar',
             profile_url: 'http://facebook.com',
             avatar_url: 'http://source.unsplash.com/random/100x100'
         }
     },
     {
         id: 2,
-        title: 'عنوان المقال',
+        title: 'كيفية ترجمة المواقع باستخدام مكتبة jQuery-Localize',
         pic: 'http://source.unsplash.com/random/300x300',
         link: 'http://google.com',
         author: {
-            name: 'Ayman Alrifai',
+            name: 'Nasr Galal',
             profile_url: 'http://facebook.com',
             avatar_url: 'http://source.unsplash.com/random/100x100'
         }
     },
     {
         id: 3,
-        title: 'عنوان المقال',
+        title: 'خطوتك الاولى لبناء مشروعك',
         pic: 'http://source.unsplash.com/random/300x300',
         link: 'http://google.com',
         author: {
-            name: 'Ayman Alrifai',
+            name: 'Malek Salem',
             profile_url: 'http://facebook.com',
             avatar_url: 'http://source.unsplash.com/random/100x100'
         }
     },
     {
         id: 4,
-        title: 'عنوان المقال',
+        title: 'إطارات عمل frameworks يجب عليك معرفتها في 2019',
         pic: 'http://source.unsplash.com/random/300x300',
         link: 'http://google.com',
         author: {
-            name: 'Ayman Alrifai',
+            name: 'Yaser AlNajjar',
             profile_url: 'http://facebook.com',
             avatar_url: 'http://source.unsplash.com/random/100x100'
         }
     },
     {
         id: 5,
-        title: 'عنوان المقال',
+        title: 'كيف تصبح المبرمج العبقري المطلوب في كل الشركات',
         pic: 'http://source.unsplash.com/random/300x300',
         link: 'http://google.com',
         author: {
-            name: 'Ayman Alrifai',
+            name: 'Hichem Ahmed',
+            profile_url: 'http://facebook.com',
+            avatar_url: 'http://source.unsplash.com/random/100x100'
+        }
+    },
+    {
+        id: 6,
+        title: 'التطوع في مواقع الفريلانسر وموقع الامم المتحدة',
+        pic: 'http://source.unsplash.com/random/300x300',
+        link: 'http://google.com',
+        author: {
+            name: 'Hussein Arasi',
             profile_url: 'http://facebook.com',
             avatar_url: 'http://source.unsplash.com/random/100x100'
         }

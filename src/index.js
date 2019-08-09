@@ -10,6 +10,50 @@ let articles = [
             avatar_url: 'http://source.unsplash.com/random/100x100'
         }
     },
+    {
+        id: 2,
+        title: 'عنوان المقال',
+        pic: 'http://source.unsplash.com/random/300x300',
+        link: 'http://google.com',
+        author: {
+            name: 'Ayman Alrifai',
+            profile_url: 'http://facebook.com',
+            avatar_url: 'http://source.unsplash.com/random/100x100'
+        }
+    },
+    {
+        id: 3,
+        title: 'عنوان المقال',
+        pic: 'http://source.unsplash.com/random/300x300',
+        link: 'http://google.com',
+        author: {
+            name: 'Ayman Alrifai',
+            profile_url: 'http://facebook.com',
+            avatar_url: 'http://source.unsplash.com/random/100x100'
+        }
+    },
+    {
+        id: 4,
+        title: 'عنوان المقال',
+        pic: 'http://source.unsplash.com/random/300x300',
+        link: 'http://google.com',
+        author: {
+            name: 'Ayman Alrifai',
+            profile_url: 'http://facebook.com',
+            avatar_url: 'http://source.unsplash.com/random/100x100'
+        }
+    },
+    {
+        id: 5,
+        title: 'عنوان المقال',
+        pic: 'http://source.unsplash.com/random/300x300',
+        link: 'http://google.com',
+        author: {
+            name: 'Ayman Alrifai',
+            profile_url: 'http://facebook.com',
+            avatar_url: 'http://source.unsplash.com/random/100x100'
+        }
+    },
 ];
 
 let list = document.querySelector('.articles-wrapper__carousel');

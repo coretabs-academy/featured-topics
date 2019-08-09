@@ -13,13 +13,7 @@ body {
 }
 
 body {
-    background: #f1f1f1;
     font-family: 'Droid Arabic Kufi', serif;
-}
-
-.wrapper {
-    max-width: 960px;
-    margin: 48px auto;    
 }
 
 /*
@@ -33,7 +27,6 @@ body {
 }
 
 .article {
-    display: inline-block;
     overflow: hidden;
     height: 180px;
     width: 180px;
@@ -92,7 +85,7 @@ body {
 .article__author-name {
     font-size: 10px;
     color: #fff;
-    font-family: 'Arial';
+    font-family: 'Droid Arabic Kufi', 'Arial';
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;

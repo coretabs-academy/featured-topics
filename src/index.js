@@ -80,7 +80,7 @@ for (let article of articles) {
 
     articleItemElement.innerHTML = `
         <div class="article__meta">
-            <a href="${article.author.profile_url}">
+            <a href="${article.author.profile_url}" target="_parent">
                 <figure class="article__author-pic">
                     <img src="${article.author.avatar_url}" alt="${article.author.name}">    
                 </figure>
@@ -88,7 +88,7 @@ for (let article of articles) {
             </a>
         </div>
 
-        <a href="${article.link}" class="article__link">
+        <a href="${article.link}" class="article__link"  target="_parent">
             <div class="article__body">
                 <p class="article__title">${articleTitle}</p>
             </div>

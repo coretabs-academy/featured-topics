@@ -117,7 +117,6 @@ for (let article of articles) {
                 <figure class="article__author-pic">
                     <img src="${article.author.avatar_url}" alt="${article.author.name}">    
                 </figure>
-                <span class="article__author-name">${article.author.name}</span>
             </a>
         </div>
 
@@ -127,6 +126,10 @@ for (let article of articles) {
             </div>
         </a>
 
+        <div class="article__meta">
+            <span class="article__author-name">${article.author.name}</span>
+        </div>
+        
         <div class="tint">
             <img src="${article.pic}" alt="${articleTitle}"/>                
         </div>

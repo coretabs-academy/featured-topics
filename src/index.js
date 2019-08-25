@@ -14,7 +14,7 @@ let articles = [
         id: 2,
         title: 'أنظمة التعرف على الكلام',
         pic: 'https://source.unsplash.com/random/300x300?sig=2',
-        link: 'https://forums.coretabs.net/t/%D8%A3%D9%88%D8%AF%D9%88%D8%8C-%D8%A5%D8%B7%D8%A7%D8%B1-%D8%B9%D9%85%D9%84-%D8%B1%D8%A7%D8%A6%D8%B9/2816',
+        link: 'https://forums.coretabs.net/t/أنظمة-التعرف-على-الكلام/2821',
         author: {
             name: 'Makhloufi Smail',
             profile_url: 'https://forums.coretabs.net/u/makhlouf',

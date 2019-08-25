@@ -1,6 +1,28 @@
 let articles = [
     {
         id: 1,
+        title: 'تجربة اجتماعية محبطة (العرب ماجستير في الإفتاء)',
+        pic: 'https://source.unsplash.com/random/300x300?sig=8',
+        link: 'https://forums.coretabs.net/t/2848',
+        author: {
+            name: 'Nasr Galal',
+            profile_url: 'https://forums.coretabs.net/u/sniperadmin',
+            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/sniperadmin/45/1166_2.png'
+        }
+    },
+    {
+        id: 2,
+        title: 'أنظمة التعرف على الكلام',
+        pic: 'https://source.unsplash.com/random/300x300?sig=1',
+        link: 'https://forums.coretabs.net/t/%D8%A3%D9%88%D8%AF%D9%88%D8%8C-%D8%A5%D8%B7%D8%A7%D8%B1-%D8%B9%D9%85%D9%84-%D8%B1%D8%A7%D8%A6%D8%B9/2816',
+        author: {
+            name: 'Makhloufi Smail',
+            profile_url: 'https://forums.coretabs.net/u/makhlouf',
+            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/makhlouf/45/1545_2.png'
+        }
+    },
+    {
+        id: 3,
         title: 'أودو، إطار عمل رائع',
         pic: 'https://source.unsplash.com/random/300x300?sig=1',
         link: 'https://forums.coretabs.net/t/%D8%A3%D9%88%D8%AF%D9%88%D8%8C-%D8%A5%D8%B7%D8%A7%D8%B1-%D8%B9%D9%85%D9%84-%D8%B1%D8%A7%D8%A6%D8%B9/2816',
@@ -11,7 +33,7 @@ let articles = [
         }
     },
     {
-        id: 2,
+        id: 4,
         title: 'زيادة فرصك كمطور: مشاريعك في البروفايل',
         pic: 'https://source.unsplash.com/random/300x300?sig=2',
         link: 'https://forums.coretabs.net/t/%D8%B2%D9%8A%D8%A7%D8%AF%D8%A9-%D9%81%D8%B1%D8%B5%D9%83-%D9%83%D9%85%D8%B7%D9%88%D8%B1-%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9%D9%83-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%B1%D9%88%D9%81%D8%A7%D9%8A%D9%84/2485',
@@ -22,7 +44,7 @@ let articles = [
         }
     },
     {
-        id: 3,
+        id: 5,
         title: 'العملاء والعمل الحر',
         pic: 'https://source.unsplash.com/random/300x300?sig=3',
         link: 'https://forums.coretabs.net/t/%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D8%AD%D8%B1/2789',
@@ -33,7 +55,7 @@ let articles = [
         }
     },
     {
-        id: 4,
+        id: 6,
         title: 'خطوتك الاولى لبناء مشروعك',
         pic: 'https://source.unsplash.com/random/300x300?sig=4',
         link: 'https://forums.coretabs.net/t/%D8%AE%D8%B7%D9%88%D8%AA%D9%83-%D8%A7%D9%84%D8%A7%D9%88%D9%84%D9%89-%D9%84%D8%A8%D9%86%D8%A7%D8%A1-%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D9%83/2733',
@@ -44,7 +66,7 @@ let articles = [
         }
     },
     {
-        id: 5,
+        id: 7,
         title: 'كيف قمت ببناء متجري الالكتروني بجانقو',
         pic: 'https://source.unsplash.com/random/300x300?sig=5',
         link: 'https://forums.coretabs.net/t/%D9%85%D8%AA%D8%AC%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%88%D9%84/2740',
@@ -55,7 +77,7 @@ let articles = [
         }
     },
     {
-        id: 6,
+        id: 8,
         title: 'كيف تصبح المبرمج العبقري المطلوب في كل الشركات',
         pic: 'https://source.unsplash.com/random/300x300?sig=6',
         link: 'https://forums.coretabs.net/t/%D9%83%D9%8A%D9%81-%D8%AA%D8%B5%D8%A8%D8%AD-%D8%A7%D9%84%D9%85%D8%A8%D8%B1%D9%85%D8%AC-%D8%A7%D9%84%D8%B9%D8%A8%D9%82%D8%B1%D9%8A-%D8%A7%D9%84%D9%85%D8%B7%D9%84%D9%88%D8%A8-%D9%81%D9%8A-%D9%83%D9%84-%D8%A7%D9%84%D8%B4%D8%B1%D9%83%D8%A7%D8%AA/2714',
@@ -66,7 +88,7 @@ let articles = [
         }
     },
     {
-        id: 7,
+        id: 9,
         title: 'التطوع في مواقع الفريلانسر وموقع الامم المتحدة',
         pic: 'https://source.unsplash.com/random/300x300?sig=7',
         link: 'https://forums.coretabs.net/t/%D8%A7%D9%84%D8%AA%D8%B7%D9%88%D8%B9-%D9%81%D9%8A-%D9%85%D9%88%D8%A7%D9%82%D8%B9-%D8%A7%D9%84%D9%81%D8%B1%D9%8A%D9%84%D8%A7%D9%86%D8%B3%D8%B1-%D9%88%D9%85%D9%88%D9%82%D8%B9-%D8%A7%D9%84%D8%A7%D9%85%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9/2737',
@@ -74,28 +96,6 @@ let articles = [
             name: 'Hussein Arasi',
             profile_url: 'https://forums.coretabs.net/u/Hussien',
             avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/hussien/45/1525_2.png'
-        }
-    },
-    {
-        id: 8,
-        title: 'كيفية ترجمة المواقع باستخدام مكتبة jQuery-Localize',
-        pic: 'https://source.unsplash.com/random/300x300?sig=8',
-        link: 'https://forums.coretabs.net/t/%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-%D8%A7%D9%84%D9%85%D9%88%D8%A7%D9%82%D8%B9-%D8%A8%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85-%D9%85%D9%83%D8%AA%D8%A8%D8%A9-jquery-localize/2646',
-        author: {
-            name: 'Nasr Galal',
-            profile_url: 'https://forums.coretabs.net/u/sniperadmin',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/sniperadmin/45/1166_2.png'
-        }
-    },
-    {
-        id: 9,
-        title: 'من يمتلك السيطرة على عالم الانترنت؟',
-        pic: 'https://source.unsplash.com/random/300x300?sig=9',
-        link: 'https://forums.coretabs.net/t/%D9%85%D9%86-%D9%8A%D9%85%D8%AA%D9%84%D9%83-%D8%A7%D9%84%D8%B3%D9%8A%D8%B7%D8%B1%D8%A9-%D8%B9%D9%84%D9%89-%D8%B9%D8%A7%D9%84%D9%85-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%B1%D9%86%D8%AA%D8%9F/2703',
-        author: {
-            name: 'Yaser AlNajjar',
-            profile_url: 'https://forums.coretabs.net/u/YaserAlnajjar',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/yaseralnajjar/45/1862_2.png'
         }
     },
 ];

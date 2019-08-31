@@ -1,13 +1,13 @@
 let articles = [
     {
         id: 1,
-        title: 'تجربة اجتماعية محبطة (العرب ماجستير في الإفتاء)',
+        title: 'هنا ينتهي حقك في التعلم؟',
         pic: 'https://source.unsplash.com/random/300x300?sig=1',
-        link: 'https://forums.coretabs.net/t/2848',
+        link: 'https://forums.coretabs.net/t/هنا-ينتهي-حقك-في-التعلم؟/2857',
         author: {
-            name: 'Nasr Galal',
-            profile_url: 'https://forums.coretabs.net/u/sniperadmin',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/sniperadmin/45/1166_2.png'
+            name: 'Makhloufi Smail',
+            profile_url: 'https://forums.coretabs.net/u/makhlouf',
+            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/makhlouf/45/1545_2.png'
         }
     },
     {

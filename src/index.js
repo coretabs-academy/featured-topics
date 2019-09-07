@@ -1,9 +1,10 @@
 let articles = [
     {
         id: 1,
-        title: 'ما هو هدفك من البرمجة؟',
         pic: 'https://source.unsplash.com/random/300x300?sig=1&abstract',
-        link: 'https://forums.coretabs.net/t/ما-هو-هدفك-من-البرمجة؟/2927/4',
+        title: '5 مكتبات بايثون مفيدة لمشاريع تعليم الآلة',
+        pic: 'https://source.unsplash.com/random/300x300?sig=1&abstract',
+        link: 'https://forums.coretabs.net/t/5-مكتبات-بايثون-مفيدة-لمشاريع-تعليم-الآلة/2930',
         author: {
             name: 'Makhloufi Smail',
             profile_url: 'https://forums.coretabs.net/u/makhlouf',
@@ -12,8 +13,19 @@ let articles = [
     },
     {
         id: 2,
-        title: '5 قصص نجاح ستبين لك أن الوقت ليس متأخرا أبدا',
+        title: 'ما هو هدفك من البرمجة؟',
         pic: 'https://source.unsplash.com/random/300x300?sig=2&abstract',
+        link: 'https://forums.coretabs.net/t/ما-هو-هدفك-من-البرمجة؟/2927/4',
+        author: {
+            name: 'Makhloufi Smail',
+            profile_url: 'https://forums.coretabs.net/u/makhlouf',
+            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/makhlouf/45/1545_2.png'
+        }
+    },
+    {
+        id: 3,
+        title: '5 قصص نجاح ستبين لك أن الوقت ليس متأخرا أبدا',
+        pic: 'https://source.unsplash.com/random/300x300?sig=3&abstract',
         link: 'https://forums.coretabs.net/t/5-قصص-نجاح-ستبين-لك-أن-الوقت-ليس-متأخرا-أبدا-من-أجل-بداية-جديدة/1785',
         author: {
             name: 'Hichem Ahmed',
@@ -22,9 +34,9 @@ let articles = [
         }
     },
     {
-        id: 3,
+        id: 4,
         title: 'كيف قمت ببناء متجري الالكتروني بجانقو',
-        pic: 'https://source.unsplash.com/random/300x300?sig=3&abstract',
+        pic: 'https://source.unsplash.com/random/300x300?sig=4&abstract',
         link: 'https://forums.coretabs.net/t/%D9%85%D8%AA%D8%AC%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%88%D9%84/2740',
         author: {
             name: 'Asmaa Salih',
@@ -33,9 +45,9 @@ let articles = [
         }
     },
     {
-        id: 4,
+        id: 5,
         title: 'كيف تقوم بعمل Template للمواقع',
-        pic: 'https://source.unsplash.com/random/300x300?sig=4&abstract',
+        pic: 'https://source.unsplash.com/random/300x300?sig=5&abstract',
         link: 'https://forums.coretabs.net/t/سلسلة-template/2916',
         author: {
             name: 'Tarek Amro',
@@ -44,9 +56,9 @@ let articles = [
         }
     },
     {
-        id: 5,
+        id: 6,
         title: 'أنظمة التعرف على الكلام',
-        pic: 'https://source.unsplash.com/random/300x300?sig=5&abstract',
+        pic: 'https://source.unsplash.com/random/300x300?sig=6&abstract',
         link: 'https://forums.coretabs.net/t/أنظمة-التعرف-على-الكلام/2821',
         author: {
             name: 'Makhloufi Smail',
@@ -55,9 +67,9 @@ let articles = [
         }
     },
     {
-        id: 6,
+        id: 7,
         title: 'أودو، إطار عمل رائع',
-        pic: 'https://source.unsplash.com/random/300x300?sig=6&abstract',
+        pic: 'https://source.unsplash.com/random/300x300?sig=7&abstract',
         link: 'https://forums.coretabs.net/t/%D8%A3%D9%88%D8%AF%D9%88%D8%8C-%D8%A5%D8%B7%D8%A7%D8%B1-%D8%B9%D9%85%D9%84-%D8%B1%D8%A7%D8%A6%D8%B9/2816',
         author: {
             name: 'Makhloufi Smail',
@@ -66,9 +78,9 @@ let articles = [
         }
     },
     {
-        id: 7,
+        id: 8,
         title: '4 إطارات عمل frameworks يجب عليك معرفتها في 2019',
-        pic: 'https://source.unsplash.com/random/300x300?sig=7&abstract',
+        pic: 'https://source.unsplash.com/random/300x300?sig=8&abstract',
         link: 'https://forums.coretabs.net/t/4-إطارات-عمل-frameworks-يجب-عليك-معرفتها-في-2019/1663',
         author: {
             name: 'Yaser AlNajjar',
@@ -77,25 +89,14 @@ let articles = [
         }
     },
     {
-        id: 8,
+        id: 9,
         title: 'العملاء والعمل الحر',
-        pic: 'https://source.unsplash.com/random/300x300?sig=8&abstract',
+        pic: 'https://source.unsplash.com/random/300x300?sig=9&abstract',
         link: 'https://forums.coretabs.net/t/%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D8%AD%D8%B1/2789',
         author: {
             name: 'Hussein Arasi',
             profile_url: 'https://forums.coretabs.net/u/Hussien',
             avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/hussien/45/1525_2.png'
-        }
-    },
-    {
-        id: 9,
-        title: 'خطوتك الاولى لبناء مشروعك',
-        pic: 'https://source.unsplash.com/random/300x300?sig=9&abstract',
-        link: 'https://forums.coretabs.net/t/%D8%AE%D8%B7%D9%88%D8%AA%D9%83-%D8%A7%D9%84%D8%A7%D9%88%D9%84%D9%89-%D9%84%D8%A8%D9%86%D8%A7%D8%A1-%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D9%83/2733',
-        author: {
-            name: 'Malek Salem',
-            profile_url: 'https://forums.coretabs.net/u/malek.salem',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/malek.salem/45/1764_2.png'
         }
     },
 ];

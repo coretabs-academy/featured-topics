@@ -2,20 +2,19 @@ let articles = [
     {
         id: 1,
         pic: 'https://source.unsplash.com/random/300x300?sig=1&abstract',
-        title: '5 مكتبات بايثون مفيدة لمشاريع تعليم الآلة',
-        pic: 'https://source.unsplash.com/random/300x300?sig=1&abstract',
-        link: 'https://forums.coretabs.net/t/5-مكتبات-بايثون-مفيدة-لمشاريع-تعليم-الآلة/2930',
+        title: 'تطبيقي Vue-commerce (متجر الكتروني) + الروابط',
+        link: 'https://forums.coretabs.net/t/تطبيقي-vue-commerce-متجر-الكتروني-الروابط/3060',
         author: {
-            name: 'Makhloufi Smail',
-            profile_url: 'https://forums.coretabs.net/u/makhlouf',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/makhlouf/45/1545_2.png'
+            name: 'Nasr Galal',
+            profile_url: 'https://forums.coretabs.net/u/sniperadmin',
+            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/sniperadmin/120/2258_2.png'
         }
     },
     {
         id: 2,
-        title: 'ما هو هدفك من البرمجة؟',
+        title: 'أموت و في نفسي شيء من قوقل',
         pic: 'https://source.unsplash.com/random/300x300?sig=2&abstract',
-        link: 'https://forums.coretabs.net/t/ما-هو-هدفك-من-البرمجة؟/2927/4',
+        link: 'https://forums.coretabs.net/t/أموت-و-في-نفسي-شيء-من-قوقل/3062',
         author: {
             name: 'Makhloufi Smail',
             profile_url: 'https://forums.coretabs.net/u/makhlouf',
@@ -24,79 +23,79 @@ let articles = [
     },
     {
         id: 3,
-        title: '5 قصص نجاح ستبين لك أن الوقت ليس متأخرا أبدا',
+        title: 'مميزات قد لا تعرفها عن css (الدرس الاول)',
         pic: 'https://source.unsplash.com/random/300x300?sig=3&abstract',
-        link: 'https://forums.coretabs.net/t/5-قصص-نجاح-ستبين-لك-أن-الوقت-ليس-متأخرا-أبدا-من-أجل-بداية-جديدة/1785',
+        link: 'https://forums.coretabs.net/t/مميزات-قد-لا-تعرفها-عن-css-الدرس-الاول/3053',
         author: {
-            name: 'Hichem Ahmed',
-            profile_url: 'https://forums.coretabs.net/u/hichem2h',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/hichem2h/45/2008_2.png'
+            name: 'ahmed alakbari',
+            profile_url: 'https://forums.coretabs.net/u/ahmed-alakbari',
+            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/ahmed-alakbari/120/549_2.png'
         }
     },
     {
         id: 4,
-        title: 'كيف قمت ببناء متجري الالكتروني بجانقو',
+        title: 'ما هو الـ access token؟',
         pic: 'https://source.unsplash.com/random/300x300?sig=4&abstract',
-        link: 'https://forums.coretabs.net/t/%D9%85%D8%AA%D8%AC%D8%B1%D9%8A-%D8%A7%D9%84%D8%A7%D9%88%D9%84/2740',
+        link: 'https://forums.coretabs.net/t/ما-هو-الـ-access-token؟/3035',
         author: {
-            name: 'Asmaa Salih',
-            profile_url: 'https://forums.coretabs.net/u/asmaa_salih',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/asmaa_salih/45/1657_2.png'
+            name: 'sohep alslamat',
+            profile_url: 'https://forums.coretabs.net/u/sohep',
+            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/sohep/120/1282_2.png'
         }
     },
     {
         id: 5,
-        title: 'كيف تقوم بعمل Template للمواقع',
+        title: 'عندما يتحول المبرمج إلى روائي',
         pic: 'https://source.unsplash.com/random/300x300?sig=5&abstract',
-        link: 'https://forums.coretabs.net/t/سلسلة-template/2916',
+        link: 'https://forums.coretabs.net/t/عندما-يتحول-المبرمج-إلى-روائي/3033',
         author: {
-            name: 'Tarek Amro',
-            profile_url: 'https://forums.coretabs.net/u/tarekamro',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/tarekamro/120/1991_2.png'
+            name: 'Makhloufi Smail',
+            profile_url: 'https://forums.coretabs.net/u/makhlouf',
+            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/makhlouf/45/1545_2.png'
         }
     },
     {
         id: 6,
-        title: 'أنظمة التعرف على الكلام',
+        title: 'متى نستعمل cookies و local storage؟',
         pic: 'https://source.unsplash.com/random/300x300?sig=6&abstract',
-        link: 'https://forums.coretabs.net/t/أنظمة-التعرف-على-الكلام/2821',
+        link: 'https://forums.coretabs.net/t/متى-نستعمل-cookies-و-local-storage؟/3066',
         author: {
-            name: 'Makhloufi Smail',
-            profile_url: 'https://forums.coretabs.net/u/makhlouf',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/makhlouf/45/1545_2.png'
+            name: 'Nasr Galal',
+            profile_url: 'https://forums.coretabs.net/u/sniperadmin',
+            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/sniperadmin/120/2258_2.png'
         }
     },
     {
         id: 7,
-        title: 'أودو، إطار عمل رائع',
+        title: 'ماهي التقنيات التي يستعملها موقع renderforest.com ؟',
         pic: 'https://source.unsplash.com/random/300x300?sig=7&abstract',
-        link: 'https://forums.coretabs.net/t/%D8%A3%D9%88%D8%AF%D9%88%D8%8C-%D8%A5%D8%B7%D8%A7%D8%B1-%D8%B9%D9%85%D9%84-%D8%B1%D8%A7%D8%A6%D8%B9/2816',
+        link: 'https://forums.coretabs.net/t/ماهي-التقنيات-التي-يستعملها-موقع-renderforestcom-؟/3056',
         author: {
-            name: 'Makhloufi Smail',
-            profile_url: 'https://forums.coretabs.net/u/makhlouf',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/makhlouf/45/1545_2.png'
+            name: 'Mahmoud Abu Amsha',
+            profile_url: 'https://forums.coretabs.net/u/mahmoudamsha',
+            avatar_url: 'https://cdn4.vectorstock.com/i/1000x1000/88/93/user-avatar-anonymous-sign-dark-vector-9548893.jpg'
         }
     },
     {
         id: 8,
-        title: '4 إطارات عمل frameworks يجب عليك معرفتها في 2019',
+        title: 'هل ال cookies يغني عن استخدام vuex ؟',
         pic: 'https://source.unsplash.com/random/300x300?sig=8&abstract',
-        link: 'https://forums.coretabs.net/t/4-إطارات-عمل-frameworks-يجب-عليك-معرفتها-في-2019/1663',
+        link: 'https://forums.coretabs.net/t/هل-ال-cookies-يغني-عن-استخدام-vuex-؟/3063/4',
         author: {
-            name: 'Yaser AlNajjar',
-            profile_url: 'https://forums.coretabs.net/u/YaserAlnajjar',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/yaseralnajjar/45/1862_2.png'
+            name: 'sohep alslamat',
+            profile_url: 'https://forums.coretabs.net/u/sohep',
+            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/sohep/120/1282_2.png'
         }
     },
     {
         id: 9,
-        title: 'العملاء والعمل الحر',
+        title: 'مكتبة scikit-learn لتعليم الآلة',
         pic: 'https://source.unsplash.com/random/300x300?sig=9&abstract',
-        link: 'https://forums.coretabs.net/t/%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%84%D8%AD%D8%B1/2789',
+        link: 'https://forums.coretabs.net/t/مكتبة-scikit-learn-لتعليم-الآلة/3036/',
         author: {
-            name: 'Hussein Arasi',
-            profile_url: 'https://forums.coretabs.net/u/Hussien',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/hussien/45/1525_2.png'
+            name: 'Makhloufi Smail',
+            profile_url: 'https://forums.coretabs.net/u/makhlouf',
+            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/makhlouf/45/1545_2.png'
         }
     },
 ];

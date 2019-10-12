@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: 'Droid Arabic Kufi Bold', serif;
+    font-family: 'Droid Arabic Kufi Bold', Tahoma;
 }
 
 /*
@@ -72,7 +72,7 @@ body {
     margin-inline-end: 8px;
     display: flex;
     align-items: center;
-    border: 1.3px solid white;
+    border: 2px solid #5887ff;
 }
 
 .article__author-pic > img {
@@ -112,6 +112,7 @@ body {
     font-size: 12px;
     text-align: center;
     font-weight: bold;
+    line-height: 20px;
 }
 
 
@@ -164,6 +165,7 @@ body {
     }
 
     .article__title {
-        font-size: 16px;
+        font-size: 15px;
+        line-height: 26px;
     }    
 }

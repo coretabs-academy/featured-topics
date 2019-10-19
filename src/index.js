@@ -7,7 +7,7 @@ let articles = [
         author: {
             name: 'مجتمع كورتابز',
             profile_url: 'https://coretabs.net',
-            avatar_url: 'https://forums.coretabs.net/uploads/default/original/1X/c2dda6a6512aa2a7d4e5acafbcf1d42493127b6f.png'
+            avatar_url: 'https://forums.coretabs.net/uploads/default/original/1X/7aff4233bdc45b6505ba9ea00ef45e323b569e6d.png'
         }
     },
     {

@@ -1,9 +1,9 @@
 let articles = [
     {
         id: 1,
-        title: 'سلسلة التحدي الأسبوعي - التحدي 1',
+        title: 'سلسلة التحدي الأسبوعي: التحدي 1',
         pic: 'https://img.freepik.com/free-vector/trophie_53876-25485.jpg?size=338&ext=jpg',
-        link: 'https://forums.coretabs.net/t/سلسلة-التحدي-الأسبوعي-التحدي-1/3151/3',
+        link: 'https://forums.coretabs.net/t/%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%AF%D9%8A-%D8%A7%D9%84%D8%A3%D8%B3%D8%A8%D9%88%D8%B9%D9%8A-%D8%A7%D9%84%D8%AA%D8%AD%D8%AF%D9%8A-1/3151',
         author: {
             name: 'مجتمع كورتابز',
             profile_url: 'https://coretabs.net',

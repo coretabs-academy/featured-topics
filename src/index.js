@@ -1,6 +1,17 @@
 let articles = [
     {
         id: 1,
+        title: 'سلسلة التحدي الأسبوعي - التحدي 1',
+        pic: 'https://img.freepik.com/free-vector/trophie_53876-25485.jpg?size=338&ext=jpg',
+        link: 'https://forums.coretabs.net/t/سلسلة-التحدي-الأسبوعي-التحدي-1/3151/3',
+        author: {
+            name: 'مجتمع كورتابز',
+            profile_url: 'https://coretabs.net',
+            avatar_url: 'https://forums.coretabs.net/uploads/default/original/1X/c2dda6a6512aa2a7d4e5acafbcf1d42493127b6f.png'
+        }
+    },
+    {
+        id: 2,
         pic: 'https://source.unsplash.com/random/300x300?sig=1&programming',
         title: 'تطبيقي Vue-commerce (متجر الكتروني) + الروابط',
         link: 'https://forums.coretabs.net/t/تطبيقي-vue-commerce-متجر-الكتروني-الروابط/3060',
@@ -8,17 +19,6 @@ let articles = [
             name: 'Nasr Galal',
             profile_url: 'https://forums.coretabs.net/u/sniperadmin',
             avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/sniperadmin/120/2258_2.png'
-        }
-    },
-    {
-        id: 2,
-        title: 'أموت و في نفسي شيء من قوقل',
-        pic: 'https://source.unsplash.com/random/300x300?sig=2&programming',
-        link: 'https://forums.coretabs.net/t/أموت-و-في-نفسي-شيء-من-قوقل/3062',
-        author: {
-            name: 'Makhloufi Smail',
-            profile_url: 'https://forums.coretabs.net/u/makhlouf',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/makhlouf/45/1545_2.png'
         }
     },
     {

@@ -1,149 +1,129 @@
-let articles = [
-    {
-        id: 1,
-        title: 'سلسلة التحدي الأسبوعي: التحدي 1',
-        pic: 'https://img.freepik.com/free-vector/trophie_53876-25485.jpg?size=338&ext=jpg',
-        link: 'https://forums.coretabs.net/t/%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%AF%D9%8A-%D8%A7%D9%84%D8%A3%D8%B3%D8%A8%D9%88%D8%B9%D9%8A-%D8%A7%D9%84%D8%AA%D8%AD%D8%AF%D9%8A-1/3151',
-        author: {
-            name: 'مجتمع كورتابز',
-            profile_url: 'https://coretabs.net',
-            avatar_url: 'https://forums.coretabs.net/uploads/default/original/1X/7aff4233bdc45b6505ba9ea00ef45e323b569e6d.png'
-        }
-    },
-    {
-        id: 2,
-        pic: 'https://source.unsplash.com/random/300x300?sig=1&programming',
-        title: 'تطبيقي Vue-commerce (متجر الكتروني) + الروابط',
-        link: 'https://forums.coretabs.net/t/تطبيقي-vue-commerce-متجر-الكتروني-الروابط/3060',
-        author: {
-            name: 'Nasr Galal',
-            profile_url: 'https://forums.coretabs.net/u/sniperadmin',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/sniperadmin/120/2258_2.png'
-        }
-    },
-    {
-        id: 3,
-        title: 'مميزات قد لا تعرفها عن css (الدرس الاول)',
-        pic: 'https://source.unsplash.com/random/300x300?sig=3&programming',
-        link: 'https://forums.coretabs.net/t/مميزات-قد-لا-تعرفها-عن-css-الدرس-الاول/3053',
-        author: {
-            name: 'ahmed alakbari',
-            profile_url: 'https://forums.coretabs.net/u/ahmed-alakbari',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/ahmed-alakbari/120/549_2.png'
-        }
-    },
-    {
-        id: 4,
-        title: 'ما هو الـ access token؟',
-        pic: 'https://source.unsplash.com/random/300x300?sig=4&programming',
-        link: 'https://forums.coretabs.net/t/ما-هو-الـ-access-token؟/3035',
-        author: {
-            name: 'sohep alslamat',
-            profile_url: 'https://forums.coretabs.net/u/sohep',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/sohep/120/1282_2.png'
-        }
-    },
-    {
-        id: 5,
-        title: 'عندما يتحول المبرمج إلى روائي',
-        pic: 'https://source.unsplash.com/random/300x300?sig=5&programming',
-        link: 'https://forums.coretabs.net/t/عندما-يتحول-المبرمج-إلى-روائي/3033',
-        author: {
-            name: 'Makhloufi Smail',
-            profile_url: 'https://forums.coretabs.net/u/makhlouf',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/makhlouf/45/1545_2.png'
-        }
-    },
-    {
-        id: 6,
-        title: 'متى نستعمل cookies و local storage؟',
-        pic: 'https://source.unsplash.com/random/300x300?sig=6&programming',
-        link: 'https://forums.coretabs.net/t/متى-نستعمل-cookies-و-local-storage؟/3066',
-        author: {
-            name: 'Nasr Galal',
-            profile_url: 'https://forums.coretabs.net/u/sniperadmin',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/sniperadmin/120/2258_2.png'
-        }
-    },
-    {
-        id: 7,
-        title: 'ماهي التقنيات التي يستعملها موقع renderforest.com ؟',
-        pic: 'https://source.unsplash.com/random/300x300?sig=7&programming',
-        link: 'https://forums.coretabs.net/t/ماهي-التقنيات-التي-يستعملها-موقع-renderforestcom-؟/3056',
-        author: {
-            name: 'Mahmoud Abu Amsha',
-            profile_url: 'https://forums.coretabs.net/u/mahmoudamsha',
-            avatar_url: 'https://cdn4.vectorstock.com/i/1000x1000/88/93/user-avatar-anonymous-sign-dark-vector-9548893.jpg'
-        }
-    },
-    {
-        id: 8,
-        title: 'هل ال cookies يغني عن استخدام vuex ؟',
-        pic: 'https://source.unsplash.com/random/300x300?sig=8&programming',
-        link: 'https://forums.coretabs.net/t/هل-ال-cookies-يغني-عن-استخدام-vuex-؟/3063/4',
-        author: {
-            name: 'sohep alslamat',
-            profile_url: 'https://forums.coretabs.net/u/sohep',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/sohep/120/1282_2.png'
-        }
-    },
-    {
-        id: 9,
-        title: 'مكتبة scikit-learn لتعليم الآلة',
-        pic: 'https://source.unsplash.com/random/300x300?sig=9&programming',
-        link: 'https://forums.coretabs.net/t/مكتبة-scikit-learn-لتعليم-الآلة/3036/',
-        author: {
-            name: 'Makhloufi Smail',
-            profile_url: 'https://forums.coretabs.net/u/makhlouf',
-            avatar_url: 'https://forums.coretabs.net/user_avatar/forums.coretabs.net/makhlouf/45/1545_2.png'
-        }
-    },
-];
-
-let list = document.querySelector('.articles-wrapper__carousel');
-
-const truncateString = (str, num) =>
-    str.length > num ? str.slice(0, num > 3 ? num - 3 : num) + '...' : str;
-
-for (let article of articles) {
-    let articleItemElement = document.createElement('article');
-    articleItemElement.className = 'article';
-
-    let articleTitle = truncateString(article.title, 60);
-
-    articleItemElement.innerHTML = `
-        <div class="article__meta">
-            <a href="${article.author.profile_url}" target="_parent">
-                <figure class="article__author-pic">
-                    <img src="${article.author.avatar_url}" alt="${article.author.name}">    
-                </figure>
-            </a>
-        </div>
-
-        <a href="${article.link}" class="article__link"  target="_parent">
-            <div class="article__body">
-                <p class="article__title">${articleTitle}</p>
-            </div>
-        </a>
-
-        <div class="article__meta">
-            <span class="article__author-name">${article.author.name}</span>
-        </div>
-        
-        <div class="tint">
-            <img src="${article.pic}" alt="${articleTitle}"/>                
-        </div>
-    `;
-
-    list.appendChild(articleItemElement);
-}
+const ARTICLES_DEP = 'https://forums.coretabs.net/c/D8A7D984D985D982D8A7D984D8A7D8AA-D988D8A7D984D986D982D8A7D8B4D8A7D8AA/l/top/weekly.json';
+const QUESTIONS_DEP = 'https://forums.coretabs.net/c/D8A7D984D8A3D8B3D8A6D984D8A9-D988D8A7D984D8A7D8B3D8AAD981D8B3D8A7D8B1D8A7D8AA/l/top/weekly.json';
 
 var elem = document.querySelector('.articles-wrapper__carousel');
 var flkty = new Flickity(elem, {
-  // options
-  cellAlign: 'right',
-  contain: true,
-  freeScroll: true,
-  pageDots: false,
-  rightToLeft: true
+// options
+cellAlign: 'right',
+contain: true,
+freeScroll: true,
+pageDots: false,
+rightToLeft: true
+});
+
+function truncateString(str, num) {
+    return str.length > num ? str.slice(0, num > 3 ? num - 3 : num) + '...' : str;
+}
+
+async function fetchTopics(departmentUrl) {
+    let response = await fetch(departmentUrl);
+    let data = await response.json();
+
+    return {topics: data.topic_list.topics, authors: data.users};
+}
+
+function sortTopics(topics) {
+    return topics.sort((a,b) => {
+        return new Date(b.bumped_at) - new Date(a.bumped_at);
+    });
+}
+
+let topics = [];
+
+let articles = fetchTopics(ARTICLES_DEP)
+                .then(data => {
+                    let sortedArray = sortTopics(data.topics);
+                    let articlesTopics = sortedArray.slice(0, 10);
+
+                    // Store All authors in this department to filter it out later
+                    let authors = data.authors;
+
+                    // Put author details in topic
+                    articlesTopics.map((topic, index) => {
+                        return topic.author = authors.filter(author => {
+                            return author.id === topic.posters[0].user_id;
+                        })[0];
+                    });
+
+                    // Merge previous & new topics together and sort them
+                    topics = sortTopics([...topics, ...articlesTopics]);
+
+                });
+
+let questions = fetchTopics(QUESTIONS_DEP)
+                .then(data => {
+                    let sortedArray = sortTopics(data.topics);
+                    let qustionsTopics = sortedArray.slice(0, 5);
+                    
+                    // Store All authors in this department to filter it out later
+                    let authors = data.authors;
+
+                    // Put author details in topic
+                    qustionsTopics.map((topic, index) => {
+                        return topic.author = authors.filter(author => {
+                            return author.id === topic.posters[0].user_id;
+                        })[0];
+                    });
+
+                    // Merge previous & new topics together and sort them
+                    topics = sortTopics([...topics, ...qustionsTopics]);
+
+                });
+
+
+Promise.all([articles, questions]).then(() => {
+    let newTopics = [...topics];
+
+    for (let [index, topic] of topics.entries()) {
+        let topicUrl = `https://forums.coretabs.net/t/${topic.slug}/${topic.id}`
+        
+        newTopics[index].title = topic.title;
+        newTopics[index].topic_url = topicUrl;
+        newTopics[index].pic = `https://source.unsplash.com/random/300x300?sig=${index}&programming`;
+    
+        // make avatar url from avatar template
+        // change {size} to real size (eg, 45)
+        newTopics[index].author = Object.assign({}, topic.author)
+        newTopics[index].author.avatar_url = `https://forums.coretabs.net/${topic.author.avatar_template.replace(/{.*}/, 45)}`;
+        newTopics[index].author.profile_url = `https://forums.coretabs.net/u/${newTopics[index].author.username}`;
+        delete newTopics[index].author.avatar_template;
+
+    }
+
+    let list = document.querySelector('.articles-wrapper__carousel');
+    (function renderTopics() {
+        
+        for (let topic of newTopics) {
+            let articleItemElement = document.createElement('article');
+            articleItemElement.className = 'article';
+    
+            let topicTitle = truncateString(topic.title, 60);
+
+            articleItemElement.innerHTML = `
+                <div class="article__meta">
+                    <a href="${topic.author.profile_url}" target="_parent">
+                        <figure class="article__author-pic">
+                            <img src="${topic.author.avatar_url}" alt="${topic.author.name}">    
+                        </figure>
+                    </a>
+                </div>
+    
+                <a href="${topic.topic_url}" class="article__link"  target="_parent">
+                    <div class="article__body">
+                        <p class="article__title">${topicTitle}</p>
+                    </div>
+                </a>
+    
+                <div class="article__meta">
+                    <span class="article__author-name">${topic.author.name}</span>
+                </div>
+                
+                <div class="tint">
+                    <img src="${topic.pic}" alt="${topicTitle}"/>                
+                </div>
+            `;
+    
+            list.appendChild(articleItemElement);
+        }
+    })();
 });

@@ -4,7 +4,7 @@
   "description": "\"# featured-topics\"",
   "main": "index.js",
   "scripts": {
-    "build": "babel src -d build",
+    "build": "babel \"./src/*\" -d \"./build/src/\" --clean && cpx \"./src/*\" \"./build/src/\" --clean && cpx \"./index.html\" \"./build/\" --clean && cpx \"./node_modules/regenerator-runtime/runtime.js\" \"./build/src/\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +23,7 @@
     "@babel/preset-env": "^7.6.3"
   },
   "dependencies": {
+    "cpx": "^1.5.0",
     "regenerator-runtime": "^0.13.3"
   }
 }

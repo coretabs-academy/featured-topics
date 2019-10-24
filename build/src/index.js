@@ -3,6 +3,20 @@ const ARTICLES_DEP =
 const QUESTIONS_DEP =
   "https://forums.coretabs.net/c/questions/l/top/monthly.json";
 
+// Manual Added Topics (Eg, Important Topics & Announcements From Coretabs Forums)
+const manualAddedTopics = [
+  {
+    author: {
+      name: 'مجتمع كورتابز',
+      profile_url: 'https://coretabs.net',
+      avatar_url: 'https://forums.coretabs.net/uploads/default/original/1X/7aff4233bdc45b6505ba9ea00ef45e323b569e6d.png'
+    },
+    title: 'سلسلة التحدي الأسبوعي: التحدي 1',
+    topic_url: 'https://forums.coretabs.net/t/%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D8%AF%D9%8A-%D8%A7%D9%84%D8%A3%D8%B3%D8%A8%D9%88%D8%B9%D9%8A-%D8%A7%D9%84%D8%AA%D8%AD%D8%AF%D9%8A-1/3151',
+    pic: 'https://img.freepik.com/free-vector/trophie_53876-25485.jpg?size=338&ext=jpg'
+  }
+];
+
 let topics = [];
 
 let articlePosts = fetchTopics(ARTICLES_DEP).then(data => {
@@ -65,6 +79,10 @@ Promise.all([articlePosts, questions])
       )}`;
       topic.author.profile_url = `https://forums.coretabs.net/u/${topic.author.username}`;
     }
+
+    // Merge manual added topics
+    topics = [...manualAddedTopics, ...topics];
+
     return topics;
   })
   .then(articles => {

@@ -1,1 +1,4 @@
 node_modules
+
+# don't ignore this
+!node_modules/regenerator-runtime/runtime.js

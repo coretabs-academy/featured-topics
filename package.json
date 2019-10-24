@@ -1,0 +1,28 @@
+{
+  "name": "featured-topics",
+  "version": "1.0.0",
+  "description": "\"# featured-topics\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coretabs-academy/featured-topics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coretabs-academy/featured-topics/issues"
+  },
+  "homepage": "https://github.com/coretabs-academy/featured-topics#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.13.3"
+  }
+}

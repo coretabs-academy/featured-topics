@@ -1,5 +1,5 @@
 let topTopics = fetchTopics("https://forums.coretabs.net/top/monthly.json").then(data => {
-  // Sort Topics by date
+  // Sort Topics by pinned status then by date
   let sortedArray = sortTopics(data.topics);
   
   // Filter Topics by 12, 16 and 19 Categories
@@ -33,7 +33,11 @@ async function fetchTopics(departmentUrl) {
 
 function sortTopics(topics) {
   return topics.sort((a, b) => {
-    return new Date(b.bumped_at) - new Date(a.bumped_at);
+    if(a.pinned === b.pinned) {
+      return new Date(b.bumped_at) - new Date(a.bumped_at);
+    } else {
+      return a.pinned ? -1 : 1
+    }
   });
 }
 

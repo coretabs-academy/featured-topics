@@ -52,6 +52,9 @@ window.onload = async function() {
   topics.forEach(function(article) {
     let articleItemElement = document.createElement("article");
     let articleTitle = truncateString(article.title, 60);
+    let articleImage = article.tags.includes('التحدي-الأسبوعي') ?
+      `https://img.freepik.com/free-vector/trophie_53876-25485.jpg?size=338&ext=jpg` :
+      `https://source.unsplash.com/random/300x300?sig=${article.id}&programming`;
     
     articleItemElement.className = "article";
     articleItemElement.innerHTML = `
@@ -71,7 +74,7 @@ window.onload = async function() {
         <span class="article__author-name">${article.author.name}</span>
       </div>
       <div class="tint">
-        <img src="https://source.unsplash.com/random/300x300?sig=${article.id}&programming" alt="${articleTitle}"/>                
+        <img src="${articleImage}" alt="${articleTitle}"/>                
       </div>
     `;
 

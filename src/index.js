@@ -1,4 +1,4 @@
-let topTopics = fetchTopics("https://forums.coretabs.net/top/monthly.json").then(data => {
+let latestTopics = fetchTopics("https://forums.coretabs.net/latest.json").then(data => {
   // Sort Topics by pinned status then by date
   let sortedArray = sortTopics(data.topics);
   
@@ -8,13 +8,13 @@ let topTopics = fetchTopics("https://forums.coretabs.net/top/monthly.json").then
   });
 
   // Get First 12 Topics 
-  let latestTopics = categorizedTopics.slice(0, 12);
+  let firstTopics = categorizedTopics.slice(0, 12);
 
   // Store All authors in this department to filter it out later
   let authors = data.authors;
 
   // Put author details in topic
-  latestTopics.map(topic => {
+  firstTopics.map(topic => {
     let author = authors.find(author => { return author.id === topic.posters[0].user_id; });
     author.avatar_url = `https://forums.coretabs.net/${author.avatar_template.replace(/{.*}/, 45)}`;
     author.profile_url = `https://forums.coretabs.net/u/${author.username}`;
@@ -22,7 +22,7 @@ let topTopics = fetchTopics("https://forums.coretabs.net/top/monthly.json").then
     return topic.author = author;
   });
   
-  return latestTopics;
+  return firstTopics;
 });
 
 async function fetchTopics(departmentUrl) {
@@ -48,7 +48,7 @@ function truncateString(str, num) {
 window.onload = async function() {
   let list = document.querySelector(".articles-wrapper__carousel");
   
-  const topics = await topTopics;
+  const topics = await latestTopics;
   topics.forEach(function(article) {
     let articleItemElement = document.createElement("article");
     let articleTitle = truncateString(article.title, 60);
